@@ -1,0 +1,38 @@
+[
+    {
+        "image": "images/Cat1.png",
+        "name": "Cat1"
+    },
+    {
+        "image":"images/Cat2.png",
+        "name": "Cat2"
+    },
+    {
+        "image":"images/Cat3.png",
+        "name": "Cat3"
+    },
+    {
+        "image":"images/Cat4.png",
+        "name": "Cat4"
+    },
+    {
+        "image":"images/Cat5.png",
+        "name": "Cat5"
+    },
+    {
+        "image":"images/Cat6.png",
+        "name": "Cat6"
+    },
+    {
+        "image":"images/Cat7.png",
+        "name": "Cat7"
+    },
+    {
+        "image":"images/Cat8.png",
+        "name": "Cat8"
+    },
+    {
+        "image":"images/Cat9.png",
+        "name": "Cat9"
+    }
+]
