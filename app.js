@@ -99,8 +99,19 @@ function resetBoard() {
 }
 
 function gameOver() {
-  alert("Sorry! Try again! Your score is: " + score);
-  restart();
+  if (score > 0) {
+    document.getElementById("message").innerHTML = "Hey good job your score was " + score + "!";
+  } else {
+    document.getElementById("message").innerHTML = "No way not even 1? You got " + score;
+  }
+  resetBoard();
+  shuffleCards();
+  score = 0;
+  document.querySelector(".score").textContent = score;
+  gridContainer.innerHTML = "";
+  generateCards();
+  lives = 5;
+  document.querySelector(".lives").textContent = lives;
 }
 
 function restart() {
